@@ -1,25 +1,4 @@
- # <p align="center">💖TelMedSphere</p>
-<!-------------------------------------------------------------------------------------------------------------------------------------->
- <div align="center">
- <p>
-
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
-![Visitors](https://api.visitorbadge.io/api/visitors?path=PratikMane0112%2FTelMedSphere%20&countColor=%23263759&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/PratikMane0112/TelMedSphere)
-![GitHub Repo stars](https://img.shields.io/github/stars/PratikMane0112/TelMedSphere)
-![GitHub contributors](https://img.shields.io/github/contributors/PratikMane0112/TelMedSphere)
-![GitHub last commit](https://img.shields.io/github/last-commit/PratikMane0112/TelMedSphere)
-![GitHub repo size](https://img.shields.io/github/repo-size/PratikMane0112/TelMedSphere)
-![Github license](https://img.shields.io/github/license/PratikMane0112/TelMedSphere)
-![GitHub issues](https://img.shields.io/github/issues/PratikMane0112/TelMedSphere)
-![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/PratikMane0112/TelMedSphere)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/PratikMane0112/TelMedSphere)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/PratikMane0112/TelMedSphere)
- </p>
- </div>
-
-<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+ # <p align="center">💖TelMedSphere Frontend</p>
 
 <div id="top"></div>
 
@@ -27,21 +6,17 @@
 
  [📌 Introduction](#introduction).<br>
  [💡 Features](#features).<br>
- [🚀 Technology Used](#technology-used).<br>
+ [🚀 Technology Stack](#technology-stack).<br>
+ [🏗️ Project Structure](#project-structure).<br>
  [⭐ Overview](#overview).<br>
  [💥 Getting Started](#getting-started).<br>
  [🐳 Docker Setup](#docker-setup).<br>
- [⚡ Project Admin & Mentors](#project-admin-and-mentors).<br>
- [💬 Join Chatting Server](#contributing-with-fun).<br>
- [📑 Contributing Guidelines](#contributing-guidelines).<br>
- [📑 Code Of Conduct](#code-of-conduct).<br>
- [📑 License](#license).<br>
-[📑  API Documentation](#api-documentation).<br>
+ [🔌 Environment Variables](#environment-variables).<br>
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 <h2>📌Introduction</h2>
 
-TelMedSphere is designed to make healthcare simple and accessible for both doctors and patients. It allows patients to connect with doctors through video calls, manage their health records, and make payments easily. For doctors, the app provides tools to schedule consultations, write prescriptions, and manage their time effectively.
+TelMedSphere's frontend is built with React and provides a user-friendly interface for the telemedicine platform. It offers a seamless experience for both doctors and patients, allowing them to connect through video calls, manage health records, process payments, and handle prescriptions efficiently. The interface is designed to be intuitive, responsive, and accessible on various devices.
 
 <h2>💡Features</h2>
 
@@ -61,26 +36,69 @@ TelMedSphere is designed to make healthcare simple and accessible for both docto
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-<h2>🚀Technology Used</h2>
+<h2>🚀Technology Stack</h2>
 
 <p>
   <a href="https://www.w3schools.com/html/"> <img src="https://img.icons8.com/?size=64&id=20909&format=png" alt="HTML" /></a>
   <a href="https://www.w3schools.com/css/"> <img src="https://img.icons8.com/?size=64&id=21278&format=png" alt="CSS" /></a>
   <a href="https://www.w3schools.com/js/"> <img src="https://img.icons8.com/?size=64&id=108784&format=png" alt="JS" /></a>
   <a href="https://www.w3schools.com/REACT/DEFAULT.ASP"> <img src="https://img.icons8.com/?size=64&id=NfbyHexzVEDk&format=png" alt="React" /></a>
-  <a href="https://www.w3schools.com/python/"> <img src="https://img.icons8.com/?size=64&id=13441&format=png" alt="Python" /></a>
-  <a href="https://www.geeksforgeeks.org/flask-tutorial/"><img src="https://img.icons8.com/?size=64&id=ewGOClUtmFX4&format=png" alt="Flask" /></a>
-  <a href="https://www.w3schools.com/mongodb/"> <img src="https://img.icons8.com/?size=64&id=74402&format=png" alt="Mongo" /></a>
-  <a href="https://www.educative.io/blog/docker-compose-tutorial" ><img src="https://img.icons8.com/?size=64&id=22813&format=png&color=000000" alt="Docker"></a>
-  <a href="https://swagger.io/" ><img src="https://img.icons8.com/?size=64&id=rdKV2dee9wxd&format=png&color=000000" alt="Swagger"></a>
 </p>
 
-🚨 Frontend: ReactJs <br>
-🚨 Styling: TailwindCSS <br>
-🚨 Backend: Python, Flask <br>
-🚨 Database: MongoDB Atlas<br>
-🚨 Containerization: Docker <br>
-🚨 REST-API Documentation: Swagger <br>
+🚨 **Core Framework**: ReactJS <br>
+🚨 **Build Tool**: Vite <br>
+🚨 **Styling**: TailwindCSS <br>
+🚨 **State Management**: React Context API <br>
+🚨 **Routing**: React Router DOM <br>
+🚨 **UI Components**: Material UI <br>
+🚨 **Video Conferencing**: Jitsi <br>
+🚨 **PDF Generation**: jsPDF <br>
+🚨 **Animations**: Framer Motion <br>
+🚨 **Notifications**: React-Toastify <br>
+🚨 **Payment Processing**: Stripe <br>
+🚨 **Containerization**: Docker <br>
+🚨 **Deployment**: Vercel <br>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<h2>🏗️Project Structure</h2>
+
+```
+frontend/
+├── public/               # Static assets
+├── src/
+│   ├── assets/           # Images and static resources
+│   ├── components/       # Reusable UI components
+│   │   ├── cart/         # Shopping cart components
+│   │   ├── common/       # Shared components (header, footer, etc.)
+│   │   ├── diseasePrediction/ # Disease prediction feature components
+│   │   ├── facts/        # Health facts components
+│   │   ├── form/         # Form components
+│   │   ├── landingPage/  # Landing page specific components
+│   │   ├── medicines/    # Medicine related components
+│   │   ├── numberedCard/ # Numbered card components
+│   │   ├── orders/       # Order management components
+│   │   ├── pdfgenerator/ # PDF generation components
+│   │   └── resetPassword/ # Password reset components
+│   ├── contexts/         # React context providers
+│   │   ├── cart/         # Cart context
+│   │   ├── common/       # Shared contexts
+│   │   ├── DarkMode/     # Theme context
+│   │   └── filters/      # Filter contexts
+│   ├── data/             # Static data and mock data
+│   ├── hooks/            # Custom React hooks
+│   ├── pages/            # Application pages
+│   ├── routes/           # Route configurations
+│   ├── App.jsx           # Main application component
+│   ├── firebase.js       # Firebase configuration
+│   ├── httpClient.js     # HTTP client for API calls
+│   └── index.jsx         # Application entry point
+├── .env.example          # Environment variables example
+├── package.json          # Project dependencies and scripts
+├── tailwind.config.js    # Tailwind CSS configuration
+└── vite.config.js        # Vite configuration
+```
+
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 <h2>⭐Overview</h2>
@@ -97,62 +115,39 @@ TelMedSphere is designed to make healthcare simple and accessible for both docto
 - Fork this Repository.
 - Clone the forked repository in your local system.
   
- ```bash
- git clone https://github.com/<your-github-username>/TelMedSphere.git
- ```
+```bash
+git clone https://github.com/TelMedSphere/frontend.git
+```
+
 <h2>💻Local Setup</h2>
 
-- Navigate to the project directory for frontend Setup.
+Follow these steps to set up the frontend locally:
   
- ```bash
- # Navigate to frontend directory
- cd frontend    
- # Install all npm packages for react frontend
- # Use `npm ci` to avoid changing package-lock.json after every install https://stackoverflow.com/a/56254478  
- npm ci
- # Set .env file
- copy .env.example .env
- # (For linux) cp .env.example .env
- # Start the frontend 
- npm run dev    
- ```
+```bash
+# Navigate to frontend directory
+cd TelMedSphere/frontend
 
-- Navigate to the project directory for backend Setup.
-  
- ```bash
- # Navigate to backend directory
- cd backend
- # Set .env file
- copy .env.example .env
- # (For linux) cp .env.example .env
- # Create a virtual environment
- python -m venv venv # This will create a folder named venv inside your project directory
- # Activate the virtual environment
- venv\Scripts\activate
- # Install all dependencies for flask server
- pip install -r requirements.txt     
- # Run flask server
- flask run
- # deactivate the virtual environment, when you are done
- deactivate
- ```
-- Navigate to the project directory for ML model Setup.
-  
- ```bash
- # Navigate to backend directory
- cd models
- # Create a virtual environment
- python -m venv venv # This will create a folder named venv inside your project directory
- # Activate the virtual environment
- venv\Scripts\activate
- # Install all dependencies for flask server
- pip install -r requirements.txt     
- # Run flask server
- flask run
- #update the development server link in .env file of frontend(MODEL_URL)
- # deactivate the virtual environment, when you are done
- deactivate
- ```
+# Install all npm packages for react frontend
+# Use `npm ci` to avoid changing package-lock.json after every install
+npm ci
+
+# Set up environment variables
+cp .env.example .env
+# (For Windows) copy .env.example .env
+
+# Start the development server 
+npm run dev
+```
+
+Once the development server is running, you can access the application at `http://localhost:3000` by default.
+
+<h3>📝Available Scripts</h3>
+
+In the project directory, you can run:
+
+- `npm run dev`: Runs the app in development mode
+- `npm run build`: Builds the app for production
+- `npm start`: Previews the production build locally
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 ## How to Get `.env` File Variables
@@ -165,103 +160,165 @@ Refer to the [EnvVarSetUpGuideline.md](.github/EnvVarSetUpGuideline.md) for deta
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 <h2>🐳Docker Setup</h2>
 
-Docker provides an easier way to set up and run TelMedSphere with all its dependencies.
+Docker provides an easier way to set up and run the frontend with all its dependencies.
 
 ### Prerequisites
-- Docker and Docker Compose [installed](https://www.docker.com/products/docker-desktop/) on your system
+- Docker [installed](https://www.docker.com/products/docker-desktop/) on your system
 - Environment variables ready for configuration
 
 ### Steps to Run with Docker
 
-1. Clone the repository same as above:
+1. Clone the repository as described above
+2. Navigate to the frontend directory:
+   ```bash
+   cd TelMedSphere/frontend
+   ```
 
-2. Update Enviroment variables:
-   - Update Environment variables mentioned in docker-compose based on each project's `.env` respectively
+3. Build and run the Docker container:
+   ```bash
+   docker build -t telmedsphere-frontend .
+   docker run -p 3000:3000 telmedsphere-frontend
+   ```
 
+The frontend application will be available at:
+- http://localhost:3000
 
-3. Start the application using Docker Compose:
+### Using Docker Compose (Frontend only)
+
+You can also use a simple Docker Compose setup for just the frontend:
+
 ```bash
-docker-compose up --build -d
+# Create a docker-compose.yml file in the frontend directory with:
+# ---
+# version: '3'
+# services:
+#   frontend:
+#     build: .
+#     ports:
+#       - "3000:3000"
+# ---
+
+# Then run:
+docker-compose up --build
 ```
 
-The application will be available at:
-- Frontend: http://localhost:3000
-- Backend: http://localhost:5000
-
-### Stopping the Application
+### Stopping the Container
 ```bash
+# If using docker run
+docker stop <container-id>
+
+# If using docker-compose
 docker-compose down
 ```
 
-### Remove the Container
-```bash
-docker-compose kill
-```
-
 <h3 align="right"><a href="#top">⬆️</a></h3>
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-<h2>📑API Documentation</h2>
+<h2>🔌Environment Variables</h2>
 
-This project uses [Swagger](https://swagger.io/) for its REST API Documentation with OPEN API Specificaion.
+The frontend requires several environment variables to connect to the backend services. Create a `.env` file in the frontend directory with the following variables (refer to `.env.example`):
 
-### Navigate to the API Docs URL:
-
-For local you can access it at below URL (before please make sure that you have setup project locally by following above steps) :
-
-```bash
-http://localhost:5000/api/docs (live testing)
-https://telmedsphere-server.vercel.app/api/docs 
 ```
+# Stripe Secret Key
+VITE_PUBLICATION_KEY=your_stripe_secret_key
+
+# Jitsi Key
+VITE_JAAS_APP_ID=your_jitsi_meet_key
+
+# API Key for chatbot
+VITE_API_KEY = 'your_api_key'
+
+# Render URL For Model
+VITE_MODEL_URL='your_model_hostname'
+
+# Firebase Authentication Keys
+VITE_FIREBASE_API_KEY=your-api-key
+VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
+VITE_FIREBASE_PROJECT_ID=your-project-id
+VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+VITE_FIREBASE_APP_ID=your-app-id
+VITE_FIREBASE_MEASUREMENT_ID=your-measurement-id
+
+```
+
+For detailed instructions on obtaining these values, refer to the [EnvVarSetUpGuideline.md](.github/EnvVarSetUpGuideline.md) file.
 <h3 align="right"><a href="#top">⬆️</a></h3>
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-<h2>⚡Project Admin and Mentors</h2>
+<h2>🖥️ Key Features Implementation</h2>
+
+### 1. User Authentication
+- User registration and login
+- Password reset functionality
+- Profile management
+- Role-based access control (patient/doctor)
+
+### 2. Video Consultation
+- Real-time video calls using Jitsi
+- Appointment scheduling and management
+- Doctor availability calendar
+
+### 3. Medical Records Management
+- Patient history viewing
+- Prescription generation and downloading
+- Health records storage and retrieval
+
+### 4. Payment Integration
+- Wallet system using Stripe
+- Payment history tracking
+- Secure payment processing
+
+### 5. Medicine Marketplace
+- Browse and search medicines
+- Shopping cart functionality
+- Order tracking
+- Review and rating system
+
+### 6. Disease Prediction
+- Symptom-based disease prediction
+- Health recommendations
+
+### 7. UI/UX Features
+- Responsive design for all devices
+- Dark/Light mode toggle
+- Accessibility features
+- Intuitive navigation
+
+<h2>⚡Project Adminstrator</h2>
 
 <table>
 <tr>
 <td align="center">
-<a href="https://github.com/PratikMane0112"><img src="https://avatars.githubusercontent.com/u/153143167?v=4" height="140px" width="140px" alt="Pratik Mane"></a><br><sub><b>Project Admin - Pratik Mane</b></sub>
-</td>
-<td align="center">
-<a href="https://github.com/HarshwardhanPatil07"><img src="https://avatars.githubusercontent.com/u/126240589?v=4" height="140px" width="140px" alt="Pratik Mane"></a><br><sub><b>KWoC Mentor - Harshwardhan Patil </b></sub>
-</td>
-<td align="center">
-<a href="https://github.com/AdityaBavadekar"><img src="https://avatars.githubusercontent.com/u/64344960?v=4" height="140px" width="140px" alt="Pratik Mane"></a><br><sub><b>SWoC Mentor - Aditya Bavadekar</b></sub>
-</td>
-<td align="center">
-<a href="https://github.com/RajKhanke"><img src="https://avatars.githubusercontent.com/u/137288727?v=4" height="140px" width="140px" alt="Raj Khanke"></a><br><sub><b>DWoC Mentor - Raj Khanke</b></sub>
-</td>
-
-</tr>
-</table>
-
-<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-<h2>🚩 Project is part of below Open Source Programs </h2>
-
-<table>
-<tr>
-<td align="center">
-<a href="https://kwoc.kossiitkgp.org/"><img src="https://github.com/PratikMane0112/TelMedSphere/blob/master/Overview/KWoC.png" height="100px" width="100px" alt="KWOC2024"></a><br><sub><b>KWoC 2k24</b></sub>
-</td>
-<td></td>
- <td align="center">
-<a href="https://www.socialwinterofcode.com/"><img src="https://github.com/PratikMane0112/TelMedSphere/blob/master/Overview/SWoC.png" height="100px" width="100px" alt="SWOC2025"></a><br><sub><b>SWoC 2k25</b></sub>
-</td>
- <td></td>
- <td align="center">
-<a href="https://dwoc.io/"><img src="https://github.com/PratikMane0112/TelMedSphere/blob/master/Overview/DWoC.jpg" height="100px" width="100px" alt="SWOC2025"></a><br><sub><b>DWoC 2k25</b></sub>
-</td>
-<td></td>
- <td align="center">
-<a href="https://iwoc3.devfolio.co/"><img src="https://github.com/PratikMane0112/TelMedSphere/blob/master/Overview/IWoC.png" height="100px" width="100px" alt="IWOC2025"></a><br><sub><b>IWoC 2k25</b></sub>
+<a href="https://github.com/PratikMane0112"><img src="https://avatars.githubusercontent.com/u/153143167?v=4" height="120px" width="120px" alt="Pratik Mane"></a><br><sub><b>Pratik Mane</b></sub>
 </td>
 </tr>
 </table>
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<h2>👨‍💻 Contributing</h2>
+
+Contributions to improve the frontend are always welcome. Here's how you can contribute:
+
+1. Fork the repository
+2. Create your feature branch:
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add some amazing feature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+5. Open a Pull Request
+
+Please make sure to follow our [Contributing Guidelines](https://github.com/PratikMane0112/TelMedSphere/blob/master/.github/CONTRIBUTING_GUIDELINES.md) and adhere to our [Code of Conduct](https://github.com/PratikMane0112/TelMedSphere/blob/master/.github/CODE_OF_CONDUCT.md).
 
 <h2>🫂Project Contributors</h2>
 
@@ -269,43 +326,31 @@ https://telmedsphere-server.vercel.app/api/docs
   <img src="https://contrib.rocks/image?repo=PratikMane0112/TelMedSphere&cache_burst=1" />
 </a>
 
-<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
-<h2>🧡Contributing with fun</h2>
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-
 <h2><a href="https://discord.gg/qsdDRKak28">Join Discord Server↗️</a></h2>
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-<h2>📑Contributing Guidelines</h2>
 
-Read our [Contributing Guidelines](https://github.com/PratikMane0112/TelMedSphere/blob/master/.github/CONTRIBUTING_GUIDELINES.md) to learn about our development process, how to propose bugfixes and improvements, and contributions.
-
-<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
-<h2>📑Code Of Conduct</h2>
-
-TelMedSphere and everyone participating in it is governed by the [Code of Conduct](https://github.com/PratikMane0112/TelMedSphere/blob/master/.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
-
-<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------   -->
 <h2>🧾License</h2>
 
 This project is licensed under the Apache License 2.0. See the [LICENSE](https://github.com/PratikMane0112/TelMedSphere/blob/master/LICENSE) file for more details.
   
-  ```
-   Copyright 2025 Pratik Mane
+```
+ Copyright 2025 Pratik Mane
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+     http://www.apache.org/licenses/LICENSE-2.0
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-  ```
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+```
+
+<h3 align="center">
+  <a href="#top">⬆️ Back to top</a>
+</h3>
 
