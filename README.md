@@ -287,38 +287,27 @@ For detailed instructions on obtaining these values, refer to the [EnvVarSetUpGu
 - Accessibility features
 - Intuitive navigation
 
-<h2>⚡Project Adminstrator</h2>
+<h2>⚡Project Admin and Collaborators</h2>
 
 <table>
 <tr>
 <td align="center">
-<a href="https://github.com/PratikMane0112"><img src="https://avatars.githubusercontent.com/u/153143167?v=4" height="120px" width="120px" alt="Pratik Mane"></a><br><sub><b>Pratik Mane</b></sub>
+<a href="https://github.com/PratikMane0112"><img src="https://avatars.githubusercontent.com/u/153143167?v=4" height="140px" width="140px" alt="Pratik Mane"></a><br><sub><b>Pratik Mane <br> (Project Admin)</b></sub>
 </td>
+<td align="center">
+<a href="https://github.com/HarshwardhanPatil07"><img src="https://avatars.githubusercontent.com/u/126240589?v=4" height="140px" width="140px" alt="Pratik Mane"></a><br><sub><b>Harshwardhan Patil <br> (KWoC Mentor) </b></sub>
+</td>
+<td align="center">
+<a href="https://github.com/AdityaBavadekar"><img src="https://avatars.githubusercontent.com/u/64344960?v=4" height="140px" width="140px" alt="Pratik Mane"></a><br><sub><b>Aditya Bavadekar <br> (SWoC Mentor)</b></sub>
+</td>
+<td align="center">
+<a href="https://github.com/RajKhanke"><img src="https://avatars.githubusercontent.com/u/137288727?v=4" height="140px" width="140px" alt="Raj Khanke"></a><br><sub><b>Raj Khanke <br> (DWoC Mentor) </b></sub>
+</td>
+
 </tr>
 </table>
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
-<h2>👨‍💻 Contributing</h2>
-
-Contributions to improve the frontend are always welcome. Here's how you can contribute:
-
-1. Fork the repository
-2. Create your feature branch:
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m 'Add some amazing feature'
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-5. Open a Pull Request
-
-Please make sure to follow our [Contributing Guidelines](https://github.com/PratikMane0112/TelMedSphere/blob/master/.github/CONTRIBUTING_GUIDELINES.md) and adhere to our [Code of Conduct](https://github.com/PratikMane0112/TelMedSphere/blob/master/.github/CODE_OF_CONDUCT.md).
 
 <h2>🫂Project Contributors</h2>
 
