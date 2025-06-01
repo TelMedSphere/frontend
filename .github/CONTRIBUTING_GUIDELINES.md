@@ -9,7 +9,7 @@
 2. Fork this repository.
 3. Clone the forked repository.
 ```css
-git clone https://github.com/<your-github-username>/TelMedSphere.git
+git clone https://github.com/TelMedSphere/frontend.git
 ```
 - If you have already forked the project, update your copy before working.
 ```css
@@ -21,7 +21,7 @@ cd TelMedSphere
 ```
 5. Set a upstream with the parent repository and local repository.
 ```css
-git remote add upstream https://github.com/PratikMane0112/TelMedSphere.git
+git remote add upstream https://github.com/TelMedSphere/frontend.git
 ```
 - If you have altered it, you have to rebase it.
 ```css
