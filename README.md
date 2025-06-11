@@ -303,7 +303,6 @@ For detailed instructions on obtaining these values, refer to the [EnvVarSetUpGu
 <td align="center">
 <a href="https://github.com/RajKhanke"><img src="https://avatars.githubusercontent.com/u/137288727?v=4" height="140px" width="140px" alt="Raj Khanke"></a><br><sub><b>Raj Khanke <br> (DWoC Mentor) </b></sub>
 </td>
-
 </tr>
 </table>
 

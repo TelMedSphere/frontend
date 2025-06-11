@@ -2,8 +2,6 @@
 
 This document provides a step-by-step guide to setting up the required `.env` files for both the frontend and backend. These variables are essential for the application to function properly.
 
----
-
 1. **`VITE_PUBLICATION_KEY`**
 
    - **Description:** The public Stripe key for client-side payment processing.
